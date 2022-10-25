@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #090e22;
+  background-color: #121214;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,11 +30,10 @@ body {
   height: 600px;
   min-width: 400px;
   min-height: 400px;
-  background-color: #1d1e33;
+  background: #202024;
+  border: 0.1rem solid #323238;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow:  5px 5px 10px #0c0c14,
-           -5px -5px 10px #2e3052;
 }
 
 /* IMC Form */
@@ -82,6 +81,7 @@ button {
   cursor: pointer;
   opacity: 0.8;
   flex: 1;
+  border-radius: 10px;
 }
 
 button:hover {
